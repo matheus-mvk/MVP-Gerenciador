@@ -4,6 +4,7 @@ import Header from "../../Components/Header/Header";
 import Tabs from "../../Components/Tabs/Tabs";
 import SprintList from "../../Components/SprintList/SprintList";
 
+
 function Home() {
   const [activeTab, setActiveTab] = useState("Resumo");
 
@@ -18,4 +19,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Home

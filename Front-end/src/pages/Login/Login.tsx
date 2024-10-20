@@ -9,7 +9,7 @@ import {
   Title,
   ErrorMessage,
 } from "./Login.style";
-import Home from "../Home/Home";
+
 
 function Login() {
   const [isLogin, setIsLogin] = useState(true); // alterna entre login e cadastro
@@ -27,9 +27,9 @@ function Login() {
     }
 
     if (isLogin) {
-        <Home/>
+        
     } else {
-        <Home/>
+        
       
     }
   };

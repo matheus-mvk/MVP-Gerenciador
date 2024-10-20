@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -9,6 +10,7 @@ export const HeaderContainer = styled.header`
   color: white;
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
   h1 {
     font-size: 1.8em;
     color: #e5e5e5;
