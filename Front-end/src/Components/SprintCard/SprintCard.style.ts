@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const SprintCardContainer = styled.div`
-  width:600px;
+  width:100%;
   background-color: #fff;
   border-radius: 8px;
   padding: 20px;

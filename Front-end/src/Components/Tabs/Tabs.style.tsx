@@ -2,13 +2,13 @@ import styled from "styled-components";
 
 export const TabsContainer = styled.div`
   
-
+  width:100%;
   display: flex;
   justify-content: space-around;
   background-color: #14213d;
   padding: 10px;
-  border-radius: 8px;
-  margin-bottom: 20px;
+  
+  
   margin-top: 20px;
 `;
 
