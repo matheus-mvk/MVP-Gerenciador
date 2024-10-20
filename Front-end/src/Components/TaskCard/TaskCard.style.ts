@@ -1,6 +1,9 @@
 import styled from "styled-components";
 
 export const TaskCardContainer = styled.div`
+  
+
+
   background-color: #f9f9f9;
   border: 1px solid #ddd;
   border-radius: 8px;

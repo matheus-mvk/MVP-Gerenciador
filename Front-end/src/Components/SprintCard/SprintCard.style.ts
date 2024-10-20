@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const SprintCardContainer = styled.div`
+  width:600px;
   background-color: #fff;
   border-radius: 8px;
   padding: 20px;
@@ -21,6 +22,7 @@ export const SprintCardContainer = styled.div`
 `;
 
 export const ProgressBar = styled.div`
+
   height: 10px;
   background-color: #ddd;
   border-radius: 5px;

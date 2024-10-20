@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HomeContainer = styled.section`
-  display: flex;
+  display: block;
   
   align-items: center;
   min-height: 100vh;
@@ -10,3 +10,11 @@ export const HomeContainer = styled.section`
   
   box-sizing: border-box;
 `;
+export const MainContainer = styled.main`
+  display: flex;
+  flex-direction: row; 
+  align-items: flex-start; 
+  justify-content: flex-start; 
+  flex-wrap: wrap;
+`;
+
