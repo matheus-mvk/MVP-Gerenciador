@@ -11,12 +11,12 @@ const SprintList: React.FC = () => {
       endDate: "01/02",
       tasks: [
         {
-          taskName: "Nome da Tarefa 1",
+          taskName: "Tarefa 1",
           description: "Descrição da tarefa 1",
           status: "Em andamento",
         },
         {
-          taskName: "Nome da Tarefa 2",
+          taskName: "Tarefa",
           description: "Descrição da tarefa 2",
           status: "Finalizada",
         },

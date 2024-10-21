@@ -3,9 +3,9 @@ import Header from "../../Components/Header/Header";
 import Projeto from "../../Components/Projeto/Projeto"; // Importe o componente de Projeto
 
 const projetosData = [
-  { id: 1, nome: "Projeto A", descricao: "Descrição do Projeto A" },
-  { id: 2, nome: "Projeto B", descricao: "Descrição do Projeto B" },
-  { id: 3, nome: "Projeto C", descricao: "Descrição do Projeto C" },
+  { id: 1, nome: "Projeto OpenQ", descricao: "Projeto fiscal OpenQ" },
+  { id: 2, nome: "NASIQ Empreendimentos", descricao: "NASIQ" },
+  { id: 3, nome: "Projeto Itaperu", descricao: "Projeto em realização para a prefeitura" },
 ];
 
 function Home() {
