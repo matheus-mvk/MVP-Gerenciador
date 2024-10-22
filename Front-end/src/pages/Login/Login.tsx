@@ -9,14 +9,15 @@ import {
   Title,
   ErrorMessage,
 } from "./Login.style";
-
+import { useNavigate } from 'react-router-dom'; // Importa o useNavigate
 
 function Login() {
-  const [isLogin, setIsLogin] = useState(true); // alterna entre login e cadastro
+  const [isLogin, setIsLogin] = useState(true); // Alterna entre login e cadastro
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
   const [error, setError] = useState("");
+  const navigate = useNavigate(); // Hook do React Router para redirecionamento
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -27,10 +28,13 @@ function Login() {
     }
 
     if (isLogin) {
-        
+      // Simular login bem-sucedido e redirecionar para Home
+      console.log("Login bem-sucedido");
+      navigate("/home"); // Redireciona para Home
     } else {
-        
-      
+      // Simular cadastro bem-sucedido e redirecionar para Home
+      console.log("Cadastro bem-sucedido");
+      navigate("/home"); // Redireciona para Home
     }
   };
 
